@@ -1,7 +1,7 @@
 @echo off
 cd /d "Z:\Godot Projects\MY TURN"
 echo ======================================
-echo    🧠 Subiendo cambios a GitHub...
+echo     Subiendo cambios a GitHub...
 echo ======================================
 
 set /p msg=Escribe el mensaje del commit: 
@@ -11,5 +11,5 @@ git commit -m "%msg%"
 git push
 
 echo --------------------------------------
-echo ✅ Cambios subidos correctamente
+echo  Cambios subidos correctamente
 pause
