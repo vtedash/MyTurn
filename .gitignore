@@ -1,0 +1,57 @@
+# Godot 4+ specific ignores
+.godot/
+*.translation
+*.remap
+
+# User-specific configuration files (usually better not to track)
+# Comment these out if you want to track them, but be careful with collaboration
+# export_presets.cfg
+# project_metadata.cfg
+# .godot/editor/project_metadata.cfg
+
+# Mono/C# specific ignores (if you use C#)
+.mono/
+/bin/
+/obj/
+*.[Aa]ssembly.json
+*.[Cc]sproj.user
+*.pdb
+
+# GDScript specific ignores (optional, usually small enough to track)
+# .gdscript_metadata
+
+# Asset Library specific ignores (if using the asset library)
+# .import/ - Usually tracked to avoid re-importing, but can be large.
+#            Consider Git LFS if you have very large imported assets.
+
+# Exported game files (usually not tracked in the source repo)
+/export/
+/build/
+*.pck
+*.exe
+*.dmg
+*.apk
+*.aab
+*.html
+*.wasm
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE specific files (optional)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Workshop content downloaded by users (should NEVER be tracked)
+# Assuming it's in user://WorkshopContent/ - this path won't be tracked
+# by default as user:// is outside res://, but adding a general ignore
+# for common mod download folders might be wise if structures change.
+/WorkshopContent/
+/mods/
